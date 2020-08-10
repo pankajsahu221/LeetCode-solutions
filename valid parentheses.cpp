@@ -34,3 +34,12 @@ public:
         
     }
 };
+
+// a very cheap and easy soln which use string.find(key) which returns the 
+// first occurence of key in the string,if it's not present then it returns -1.
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        return haystack.find(needle);
+    }
+};
